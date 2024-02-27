@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eee;
+}
+
+header {
+    background-color: #6A5ACD;
+    color: white;
+}
+
+header nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a.active {
+    text-decoration: underline;
+}
+
+/* Continuing from the main banner styles */
+.main-banner h1 {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Dark overlay for better readability */
+    padding: 1em;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+/* Style the section for yoga classes */
+.yoga-classes {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: -30px; /* Overlap the main banner slightly */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.yoga-classes h2 {
+    background-color: #6A5ACD;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.class-description {
+    background-color: #f8f8f8;
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 5px solid #6A5ACD; /* Add a purple accent line */
+}
+
+.class-description h3 {
+    color: #6A5ACD; /* Use the purple color for headings */
+}
+
+.class-description p {
+    color: #666;
+    text-align: left;
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+/* Style the savasana instruction section */
+.savasana-instruction {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.savasana-instruction h2 {
+    color: #6A5ACD;
+    text-align: left;
+}
+
+.savasana-instruction p {
+    color: #666;
+    text-align: left;
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+/* Style the audio player */
+audio {
+    width: 100%; /* Make the audio player full-width */
+    margin-top: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #6A5ACD;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+    .main-banner h1 {
+        padding: 0.5em;
+        font-size: 1.5em;
+    }
+
+    .yoga-classes h2,
+    .savasana-instruction h2 {
+        font-size: 1.2em;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .class-description,
+    .savasana-instruction {
+        margin: 10px;
+    }
+}
